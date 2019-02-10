@@ -17,7 +17,7 @@ class Model:
    
     # Importing the dataset
     def importData(self):
-        dataset = pd.read_csv('Social_Network_Ads.csv')
+        dataset = pd.read_csv('supermall.csv')
         self.X = dataset.iloc[:, [2,3]].values
         self.Y = dataset.iloc[:, 4].values
 
